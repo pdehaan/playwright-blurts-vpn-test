@@ -1,0 +1,27 @@
+{
+  "name": "playwright-blurts-vpn-test",
+  "description": "Testing VPN banner on various IPs/regions.",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com>",
+  "bugs": {
+    "url": "https://github.com/pdehaan/playwright-blurts-vpn-test/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@playwright/test": "^1.17.2",
+    "@sindresorhus/slugify": "^2.1.0",
+    "playwright": "^1.17.2"
+  },
+  "homepage": "https://github.com/pdehaan/playwright-blurts-vpn-test#readme",
+  "keywords": [],
+  "license": "MPL-2.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/playwright-blurts-vpn-test.git"
+  },
+  "scripts": {
+    "start": "playwright test index.spec.mjs",
+    "test": "node vpn-header.mjs"
+  }
+}
